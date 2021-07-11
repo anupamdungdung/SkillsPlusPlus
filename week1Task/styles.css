@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: #0277BD;
+    display: flex;
+    justify-content: center;
+  
+}
+.form-card{  
+    
+    display: inline-block;
+    text-align: center;
+    margin: 5% 50%;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 1);
+    background-color: #B3E5FC;
+    font-family: 'Otomanopee One', sans-serif;   
+    
+}
+
+
+
+.heading{
+    font-family: 'Otomanopee One', sans-serif;
+    font-kerning: 10px;
+}
+
+.inputField{
+   
+    margin: 10px 50px;
+    font-size: small;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;   
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.skills{
+    font-family: 'Roboto', sans-serif;   
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.radioLabel{
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+.optionName{
+    font-family: 'Roboto', sans-serif;   
+    font-weight: bold;
+  
+}
+
+.skillsLabel{
+    margin-right: 8px;
+}
+
+
+.radioButtonRow{
+    display: block;
+    justify-self: center; 
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    min-width: 50%;    
+}
+
+
+.sendButton{
+    margin: 10px;
+    padding: 5px;
+    width: 20%;
+    border-radius: 5px;
+    font-family: 'Otomanopee One', sans-serif;
+    background-color: #4FC3F7;
+    font-size: medium;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    min-width: 80px;
+}

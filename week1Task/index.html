@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Task 1 Form</title>
+</head>
+<body>
+    <div class="form-card">
+        <h1 class="heading">Sign Up Form</h1>
+        <div class="form">
+            <input class="inputField" type="text" placeholder="Name" size="100"/><br>
+            <input class="inputField" type="email" placeholder="Email" size="100"/><br>
+            <input class="inputField" type="text" placeholder="Address" size="100"/><br>
+            <input class="inputField" type="text" placeholder="Phone no." size="100" maxlength="10"/><br>
+            <!--Radio Buttons-->
+            <div class="radioButtonRow">
+            <input type="radio" id="hardware" class="" name="radioButton">
+            <label for="hardware" class="radioLabel">Hardware</label>
+            <input type="radio" id="software" class="" name="radioButton">
+            <label for="software" class="radioLabel">Software</label>
+            <input type="radio" id="design " class="" name="radioButton">
+            <label for="design" class="radioLabel">Design</label>
+            
+            <label for="skills" class="skillsLabel">Choose a <span>
+                skill</span></label>
+            <select name="skills" id="skills" class="skills" >
+              <option value="html" class="optionName">HTML</option>
+              <option value="css" class="optionName">CSS</option>
+              <option value="javascript" class="optionName">Javascript</option>
+              <option value="react" class="optionName">React</option>
+              <option value="android" class="optionName">Android</option>
+            </select>
+            </div>
+            
+            
+            
+            <br><br>
+            <!--Input Fields-->
+            <input class="inputField" type="password" placeholder="Password" size="100"/><br>
+            <input class="inputField" type="password" placeholder="Confirm Password" size="100"/><br>
+            <button class="sendButton">Send</button>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
